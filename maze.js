@@ -7,7 +7,7 @@ window.onload = function(){
 	bstart.onclick = start;
 	var playing = false;
 	var stop = document.getElementById("end");
-	finish.onmouseover = myLose;
+	stop.onmouseover = myLose;
 	
 	var boundaries = document.getElementsByClassName("boundary");
 	for(var a=0; a < boundaries.length - 1; a++){
